@@ -1,0 +1,170 @@
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Poppins", serif;
+  }
+  
+  /*button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }*/
+  
+  body{
+      background-color: rgb(255, 255, 255);
+      
+      /*background:*/
+      /*linear-gradient(-40deg, #000,#475c49) ;*/
+      overflow-x: hidden;
+  
+      
+  }
+
+  /*retangulos*/
+
+  .retangulo1{
+    width: 1380px; /* Largura do retângulo */
+    height: 30px; /* Altura do retângulo */
+    background-color: #ffffff; /* Cor do retângulo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  .retangulo2{
+    width: 1380px; /* Largura do retângulo */
+    height: 100px; /* Altura do retângulo */
+    background-color: #06ce21; /* Cor do retângulo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-weight: bold;
+    
+
+  }
+
+  .retangulo2 p{
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: -160px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .retangulo2 a{
+    text-decoration: none;
+  }
+  .retangulo3 {
+    
+    width: 1380px;
+    height: 80px;
+    background-color: #037412;
+  }
+
+
+  
+
+  .retangulo3 .menu-desktop ul{
+    
+   display: flex;
+   align-items: center;
+   list-style: none; /*remove o ponto*/
+  }
+
+ 
+  .menu-desktop li{
+    margin-top: 27px;
+  }
+
+  a{
+    color: #ffffff;
+  }
+
+  a:hover{
+    color: #06ce21;
+    
+  }
+  .retangulo3 .menu-desktop a{
+    transition: color 0.3s;
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .retangulo4{
+    width: 800px; /* Largura do retângulo */
+    height: 500px; /* Altura do retângulo */
+    background-color: #137521; /* Cor do retângulo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 290px;
+    
+
+  }
+
+  .especialidades h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+  }
+  p{
+    text-align: center;
+  }
+  .especialidades h2 span{
+    margin: auto;
+    color: #06ce21;
+  
+  }
+
+  .especialidades p{
+    text-align: center;
+  }
+
+  .text h3{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .text p{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+  }
+
+
+  .retangulo5{
+  
+    margin-top: 30px;
+    width: 1380px; /* Largura do retângulo */
+    height: 300px; /* Altura do retângulo */
+    background-color: #026e10; /* Cor do retângulo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-weight: bold;
+    
+
+  }
+
+  .retangulo5 h4{
+    margin-left: 70px;
+    margin-top: 60px;
+    font-size: 30px;
+    color: #ffffff;
+  }
+.borda p{
+  text-align: center;
+  margin-top: -5px;
+}
+.pc img{
+  width: 500px; /* Define a largura fixa */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-left: 390px;
+}

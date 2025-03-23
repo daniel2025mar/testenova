@@ -1,0 +1,380 @@
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Poppins", serif;
+  }
+  
+  /*button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }*/
+  
+  body{
+      background-color: rgb(255, 255, 255);
+      
+      /*background:*/
+      /*linear-gradient(-40deg, #000,#475c49) ;*/
+      overflow-x: hidden;
+  
+      
+  }
+
+  /*retangulos*/
+
+  .retangulo1{
+    width: 1380px; /* Largura do retângulo */
+    height: 30px; /* Altura do retângulo */
+    background-color: #ffffff; /* Cor do retângulo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  .retangulo2{
+    width: 1380px; /* Largura do retângulo */
+    height: 100px; /* Altura do retângulo */
+    background-color: #06ce21; /* Cor do retângulo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-weight: bold;
+    
+
+  }
+
+  .retangulo6 {
+    background-color: #06ce21;
+    margin-top: 100px;
+    margin-left: -10px;
+    width: 70px; /* Largura do retângulo */
+    height: 70px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .retangulo6 i{
+    margin-left: 10%;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-right: 30px;
+    width: 80%;
+    
+
+  }
+
+  .button{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button1{
+    padding: 10px 10px;
+    bottom: 3%;
+    background-color: #196323;
+    
+    margin-top: 85px;
+    min-width: 70px;
+    height: 70px;
+    left: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+  }
+  
+
+  .button1 i{
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  .button2{
+    padding: 10px 10px;
+    bottom: 90%;
+    background-color: #196323;
+    
+    margin-top: 80px;
+    min-width: 70px;
+    height: 70px;
+    left: 50px;
+    border-radius: 10px;
+  }
+  .retangulo2 p{
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .retangulo2 a{
+    text-decoration: none;
+  }
+  .retangulo3 {
+    
+    width: 1380px;
+    height: 80px;
+    background-color: #037412;
+  }
+
+
+  
+
+  .retangulo3 .menu-desktop ul{
+    
+   display: flex;
+   align-items: center;
+   list-style: none; /*remove o ponto*/
+  }
+
+  .menu-desktop li{
+    margin-top: 27px;
+  }
+  a{
+    color: #ffffff;
+  }
+
+  a:hover{
+    color: #bace06;
+    
+  }
+  
+  .retangulo3 .menu-desktop a{
+  
+    margin-left: 40px;
+    
+    font-size: 20px;
+    text-decoration: none;
+  
+  }
+  
+  .retangulo5{
+    position: relative;
+    width: 1380px; /* Largura do retângulo */
+    height: 550px; /* Altura do retângulo */
+    background-color: #004606; /* Cor do retângulo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-weight: bold;
+    
+
+  }
+  
+  .text-overlay{
+    position: absolute;
+    margin-top: 60px;
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 30px;
+ }
+.text-para{
+  position: absolute;
+  margin-top: 330px;
+  color: #ffffff;
+  margin-left: 30px;
+}
+  .retangulo5 img {
+    opacity: 0.5;
+  }
+
+.serviços h2{
+  margin-top: 85px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.serviços {
+  text-align: center;
+}
+
+/*estilos das especialidades*/
+section.especialidades{
+  padding: 40px 4%;
+}
+
+section.especialidades .flex{
+  gap: 30px;
+  justify-content: center;
+  display: flex;
+}
+/*molibe*/
+
+
+.especialidades .especialidades-box{
+  color: #000000;
+  width: 700px;  /* Largura fixa */
+  height: 550px; /* Altura fixa */
+  background-color: #f1f1f1;
+  
+  padding: 40px;
+  border-radius: 15px;
+  margin-top: 25px;
+  transition: .2s;
+}
+
+
+.especialidades .especialidades-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #0000005e;
+}
+
+
+.especialidades .especialidades-box i{
+  font-size: 70px;
+  color: #32f80b;
+}
+
+.especialidades .especialidades-box h3{
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.especialidades-box button{
+  padding: 10px 4px;
+  font-size: 18px;
+  margin: 15px 0;
+  font-weight: 600;
+  border: none;
+  background-color: rgb(0, 255, 34);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .2s;
+}
+.especialidades-box h4{
+  color: #02a125;
+  font-family: sans-serif;
+  padding: 15px;
+}
+
+
+.retangulo9{
+  
+  margin-top: 30px;
+  width: 1380px; /* Largura do retângulo */
+  height: 300px; /* Altura do retângulo */
+  background-color: #026e10; /* Cor do retângulo */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  font-weight: bold;
+  
+
+}
+
+.retangulo9 h4 {
+  text-align: center;
+  display: block;
+  margin-top: 60px;
+  margin-left: 550px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.retangulo5 h4{
+  margin-left: 70px;
+  margin-top: 60px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.borda p{
+  text-align: center;
+  margin-top: -5px;
+}
+.borda p{
+  color: #000000;
+  
+}
+.pq{
+  text-align: center;
+  font-size: 30px;
+}
+
+.pq span{
+  color: #02a125;
+}
+
+.borda a:hover{
+  
+  text-decoration: none;
+}
+
+.borda span:hover{
+  color: rgb(255, 0, 0); /* Cor da palavra linkada */
+}
+
+.borda span{
+  color: #020202;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 360px){
+   
+  .retangulo2{
+    width: 360px;
+    align-items: center;
+  }
+  .retangulo2 p{
+    margin-left: 30%;
+  }
+  .retangulo3{
+    display: none;
+  }
+  .retangulo5{
+    width: 360px;
+    height: 200px;
+  }
+  .retangulo5 .text-overlay{
+    font-size: 20px;
+    margin-top: -1px;
+  }
+
+  .retangulo5 p{
+   font-size: 10px;
+   margin-top: -230px;
+  }
+  .retangulo5 img{
+    width: 360px;
+    height: 200px;
+  }
+  
+  .serviços .titulo{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .especialidades .flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: -25px;
+  }
+
+  .especialidades .especialidades-box{
+    width: 245px;
+    align-items: center;
+    margin-left: 4px;
+  }
+
+  .pq h1{
+    font-size: 30px;
+  }
+
+  .retangulo9{
+   width: 360px;
+  }
+  
+  .retangulo9 h4{
+   margin-left: 90px;
+  }
+
+  .borda p{
+   color: #026e10;
+   font-size: 12px;
+  }
+}

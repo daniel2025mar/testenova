@@ -1,0 +1,98 @@
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Poppins", serif;
+  }
+  
+  /*button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }*/
+  
+  body{
+      background-color: rgb(255, 255, 255);
+      
+      /*background:*/
+      /*linear-gradient(-40deg, #000,#475c49) ;*/
+      overflow-x: hidden;
+  
+      
+  }
+
+  /*retangulos*/
+
+  .retangulo1{
+    width: 1380px; /* Largura do retângulo */
+    height: 30px; /* Altura do retângulo */
+    background-color: #ffffff; /* Cor do retângulo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  .retangulo2{
+    width: 1380px; /* Largura do retângulo */
+    height: 100px; /* Altura do retângulo */
+    background-color: #06ce21; /* Cor do retângulo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-weight: bold;
+    
+
+  }
+
+  .retangulo2 p{
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .retangulo2 a{
+    text-decoration: none;
+  }
+  .retangulo3 {
+    position: fixed;
+    width: 1380px;
+    height: 80px;
+    background-color: #037412;
+  }
+
+
+  
+
+  .retangulo3 .menu-desktop ul{
+    
+   display: flex;
+   align-items: center;
+   list-style: none; /*remove o ponto*/ 
+  }
+
+  .menu-desktop li{
+    margin-top: 27px;
+  }
+  a{
+    color: #ffffff;
+  }
+
+  a:hover{
+    color: #06ce21;
+    
+  }
+  
+  .retangulo3 .menu-desktop a{
+    
+    margin-left: 40px;
+    
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
